@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c223d44-7714-4bd2-8074-85931589c408" name="Changes" comment="deploy:xxljob(feat):调度中心代码上传更新">
+      <change afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/modules/datashare/static/plugins/luckysheet/FileSaver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/modules/teachResource/knowledgeData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/job/PythonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/job/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/web/report/TestDataApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/net/gvsun/cms/service/common/ContentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/src/main/java/net/gvsun/cms/service/common/ContentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instruments/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../instruments/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../limsproduct/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../limsproduct/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/js/currentAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/js/currentAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/modules/timetable/transcript/achievementSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/static/modules/timetable/transcript/achievementSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/templates/datashare/report/luckySheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../provider-api/usercenter-front/src/main/resources/templates/datashare/report/luckySheet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-chapter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-chapter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/job/EsbDataXxlJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/job/EsbDataXxlJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/service/ShareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/service/ShareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/web/openapi/OpenApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/java/net/gvsun/datashare/web/openapi/OpenApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-datashare/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-oauth2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-transcript/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-transcript/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-usercenter/src/main/java/net/gvsun/usercenter/serviceImpl/ShareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-usercenter/src/main/java/net/gvsun/usercenter/serviceImpl/ShareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-usercenter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lubanlou-master/lubanlou-provider/lubanlou-provider-usercenter/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.6.3\mavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XYUbbXgLMcjFO0QBC5I3E1Y6YV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/work/lubanlou/lubanlou/gvsun-business/independent/xxl-job-admin/src/main/resources/lib/xxl-job-core-2.4.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;720af2242b4fece6804edc964b29feb0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\lubanlou\lubanlou\gvsun-business\independent\xxl-job-admin\src\main\resources\lib" />
+      <recent name="E:\work\lubanlou\lubanlou\gvsun-business\independent\xxl-job-admin\src\main\resources" />
+      <recent name="E:\work\xxl-job\xxl-job-admin\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="XxlJobAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xxl-job-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.admin.XxlJobAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c223d44-7714-4bd2-8074-85931589c408" name="Changes" comment="" />
+      <created>1698805579381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698805579381</updated>
+      <workItem from="1698805580560" duration="7000" />
+      <workItem from="1698823100673" duration="2068000" />
+      <workItem from="1698825319417" duration="1286000" />
+      <workItem from="1698827366943" duration="647000" />
+      <workItem from="1698889128930" duration="171000" />
+      <workItem from="1698889332656" duration="13633000" />
+      <workItem from="1698976088079" duration="3849000" />
+      <workItem from="1699232465940" duration="645000" />
+      <workItem from="1699317239741" duration="33000" />
+      <workItem from="1699317304366" duration="4641000" />
+      <workItem from="1699403631856" duration="739000" />
+      <workItem from="1700121028638" duration="30000" />
+      <workItem from="1700458969283" duration="167000" />
+      <workItem from="1700805592232" duration="1807000" />
+      <workItem from="1701053335963" duration="30000" />
+      <workItem from="1701054167624" duration="1089000" />
+      <workItem from="1704782424674" duration="619000" />
+      <workItem from="1704789262194" duration="640000" />
+      <workItem from="1705113465056" duration="6354000" />
+      <workItem from="1706235849564" duration="3893000" />
+      <workItem from="1708909321486" duration="10775000" />
+      <workItem from="1708995867095" duration="6741000" />
+      <workItem from="1709098201627" duration="3795000" />
+      <workItem from="1709515655863" duration="2826000" />
+      <workItem from="1709608663574" duration="3472000" />
+      <workItem from="1709620530846" duration="578000" />
+      <workItem from="1709621124905" duration="1394000" />
+      <workItem from="1709685758011" duration="20000" />
+      <workItem from="1709774124739" duration="2112000" />
+      <workItem from="1709792121259" duration="565000" />
+      <workItem from="1709878006206" duration="2336000" />
+      <workItem from="1710122231361" duration="2131000" />
+      <workItem from="1710210062381" duration="709000" />
+      <workItem from="1710400060931" duration="768000" />
+      <workItem from="1710826042896" duration="3208000" />
+      <workItem from="1710913579035" duration="153000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit-xxljob-调度中心代码上传">
+      <created>1699403910498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699403910498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deploy:xxljob(feat):调度中心代码上传更新">
+      <created>1709878336302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709878336302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deploy:xxljob(feat):调度中心代码触发更新">
+      <created>1710122338164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710122338164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit-xxljob-调度中心代码上传" />
+    <MESSAGE value="deploy:xxljob(feat):调度中心代码上传更新" />
+    <MESSAGE value="deploy:xxljob(feat):调度中心代码触发更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy:xxljob(feat):调度中心代码触发更新" />
+  </component>
+</project>

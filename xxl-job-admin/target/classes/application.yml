@@ -1,0 +1,90 @@
+### actuator
+management:
+  health:
+    mail:
+      enabled: false
+  server:
+    base-path: /actuator
+### mybatis
+mybatis:
+  mapper-locations: classpath:/mybatis-mapper/*Mapper.xml
+### web
+server:
+  port: 8090
+  servlet:
+    context-path: /xxl-job-admin
+spring:
+  ### xxl-job, datasource
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${db_host:localhost:3306}/${db_name:xxl_job}?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: ${db_user:root}
+    password: ${db_pwd:123456}
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: true
+      connection-test-query: SELECT 1
+      connection-timeout: 10000
+      idle-timeout: 30000
+      max-lifetime: 900000
+      maximum-pool-size: 30
+      minimum-idle: 10
+      pool-name: HikariCP
+      validation-timeout: 1000
+  ### freemarker
+  freemarker:
+    charset: UTF-8
+    request-context-attribute: request
+    settings:
+      number_format: 0.##########
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+  ### xxl-job, email
+  mail:
+    username: ${mail_username:gvsun@lubanlou.com}
+    from: ${spring.mail.username}
+    host: ${mail_host:mail.lubanlou.com}
+    password: ${mail_pwd:gengshang@123}
+    port: 25
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
+            required: true
+  ### resources
+  mvc:
+    servlet:
+      load-on-startup: 0
+    static-path-pattern: /static/**
+  flyway:
+    baseline-on-migrate: true
+    enabled: true
+    encoding: UTF-8
+    validate-on-migrate: false
+  web:
+    resources:
+      static-locations: classpath:/static/
+  redis:
+    host: ${redis_host:localhost}
+    port: ${redis_port:6379}
+    password: ${redis_password:123465}
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1s
+        max-idle: 8
+        min-idle: 0
+xxl:
+  job:
+    accessToken: gengshang123!@#$  # xxl-job, access token
+    i18n: zh_CN                    # xxl-job, i18n (default is zh_CN, and you can choose "zh_CN", "zh_TC" and "en")
+    logretentiondays: 30           # xxl-job, log retention days
+    triggerpool:                   # xxl-job, triggerpool max size
+      fast:
+        max: 200
+      slow:
+        max: 100
